@@ -1,2 +1,2 @@
 # web-components
-Composant web.
+Composants web.
