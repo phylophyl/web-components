@@ -1,0 +1,19 @@
+* { outline: solid 0.25rem rgba(215, 80, 159, 0.5); }
+
+h{
+	text-align: center
+}
+
+.container{
+	width:300px;
+	margin:auto;
+	height:450px;
+}
+
+.screen {
+	
+}
+
+.keyboard{
+	
+}
