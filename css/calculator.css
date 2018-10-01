@@ -82,9 +82,9 @@ h1{
 	color:blue;
 }
 
-/* Division */
+/* ---------Division--------- */
 
-.div_line {
+.div_line, .sub_line {
 	background-color: blue;
 	height: 2px;
 	width: 11px;
@@ -100,7 +100,6 @@ h1{
 }
 
 .up {
-	position:absolute;
 	top:33px;
 	left:33.5px;
 }
@@ -110,7 +109,9 @@ h1{
 	left:33.5px;
 }
 
-	
+/* ---------Subtraction--------- */
+
+
 				
 				
 				
