@@ -1,7 +1,9 @@
 * { outline: solid 0.25rem rgba(215, 80, 159, 0.5); }
 
-h{
-	text-align: center
+h1{
+	text-align: center;
+	background-color:Gray;
+	color:whitesmoke;
 }
 
 .container{
@@ -11,9 +13,26 @@ h{
 }
 
 .screen {
-	
+	height: 30%;
 }
 
 .keyboard{
+	height: 70%;
+}
+
+.keyboard_digit{
+	width:75%;
+	
+	
+}
+
+.key_digit{
+	float:left;
+	width:33.33%;
+	height:80px;
+	display: flex;
+  	align-items: center;
+ 	justify-content: center;
+	font-size: 1.5em;
 	
 }
