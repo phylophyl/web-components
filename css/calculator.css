@@ -1,4 +1,18 @@
-* { outline: solid 0.25rem rgba(215, 80, 159, 0.5); }
+/* --------------------------------------Document----------------------------------------- */
+
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: content-box;
+}
+
+.relative {
+	position: relative;
+}
+
+.absolute {
+	position:absolute;
+}
 
 h1{
 	text-align: center;
@@ -6,31 +20,37 @@ h1{
 	color:whitesmoke;
 }
 
+/* --------------------------------------Calcultator container------------------------------ */
+
 .container{
 	width:300px;
 	margin:auto;
-	height:450px;
+	height:457px;
 }
 
 .screen {
 	height: 30%;
+	border-bottom: 2px solid black;
 }
 
 .keyboard{
 	height: 70%;
-	
+	border-bottom: 2px solid black;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	position:relative;
 }
+
+/* --------------------------------------Digits Keys------------------------------ */
+
+
+
+
 
 .keyboard_digit{
-	width:214px;
+	width:217px;
 
 }
-
-.keyboard_operator{
-	float:right;
-	width:75px;
-}
-
 
 .key_digit{
 	float:left;
@@ -43,13 +63,60 @@ h1{
 }
 
 
+/* --------------------------------------Operators keys------------------------------ */
+
+.keyboard_operator{
+	float:right;
+	width:75px;
+	border-left: 2px solid black;
+}
+
+.key_operator {
+	width:70px;
+	height:80px;
+	display: flex;
+  	align-items: center;
+ 	justify-content: center;
+	font-size: 1.5em;
+	position: relative;
+	color:blue;
+}
+
+/* Division */
+
+.div_line {
+	background-color: blue;
+	height: 2px;
+	width: 11px;
+	
+}
+
+.point{
+	background-color: blue;
+	height:3px;
+	width:3px;
+	border-radius:50%;
+	position:absolute;
+}
+
+.up {
+	position:absolute;
+	top:33px;
+	left:33.5px;
+}
+
+.down {
+	bottom:33px;
+	left:33.5px;
+}
+
 	
 				
 				
-				<div  class="key_digit">5</div>
-				<div  class="key_digit">6</div>
-				<div  class="key_digit">1</div>
-				<div  class="key_digit">2</div>
-				<div  class="key_digit">3</div>
-				<div  class="key_digit">0</div>
-				<div  class="key_digit">.</div>
+				
+				
+				
+				
+				
+				
+				
