@@ -30,26 +30,46 @@ h1{
 
 .screen {
 	height: 30%;
-	border-bottom: 2px solid black;
+	background-color: #e3e3e3;
+	border-bottom: 2px solid #f0f0f0;
+	overflow:hidden;
 }
 
 .keyboard{
 	height: 70%;
-	border-bottom: 2px solid black;
-	border-left: 2px solid black;
-	border-right: 2px solid black;
 	position:relative;
+	background-color: #d6d6d6;
 }
 
-/* --------------------------------------Digits Keys------------------------------ */
+/* --------------------------------------Screen------------------------------ */
+
+.clear {
+	width:99px;
+	height: 20px;
+	padding: 3px 0;
+	text-align: center;
+	float:left;
+	text-transform: uppercase;
+	font-size: 0.8em;
+	border-bottom:2px solid #f0f0f0;
+	border-right:1px solid #f0f0f0;
+	color:#484848;
+}
+
+.result{
+	float:right;
+	font-size:3em;
+	padding: 25px 10px;
+}
+
+/* --------------------------------------Keyboard------------------------------ */
 
 
 
+/* ---------Digit Keyboard--------- */
 
-
-.keyboard_digit{
+.keyboard_digit{ 
 	width:217px;
-
 }
 
 .key_digit{
@@ -60,15 +80,20 @@ h1{
   	align-items: center;
  	justify-content: center;
 	font-size: 1.5em;
+	color:#181818;
+}
+
+key_digit:hover{
+	background-color: #c9c9c9;
 }
 
 
-/* --------------------------------------Operators keys------------------------------ */
+/* ---------Operators Keyboard--------- */
 
 .keyboard_operator{
 	float:right;
 	width:75px;
-	border-left: 2px solid black;
+	border-left: 2px solid #f0f0f0;
 }
 
 .key_operator {
@@ -79,10 +104,10 @@ h1{
  	justify-content: center;
 	font-size: 1.5em;
 	position: relative;
-	color:blue;
+	color:#484848;
 }
 
-/* ---------Division--------- */
+/* ---------Division absolute design--------- 
 
 .div_line, .sub_line {
 	background-color: blue;
@@ -109,7 +134,7 @@ h1{
 	left:33.5px;
 }
 
-/* ---------Subtraction--------- */
+---------/ Division absolute design--------- */
 
 
 				
