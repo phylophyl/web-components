@@ -17,11 +17,12 @@
 
 		<div class="screen">
 			
-			<div class="clear">del</div>
-			<div class="clear">&percnt;</div>
-			<div class="clear">&mnplus;</div>
-			<div class="clear">clear</div>
-			<div id="result">8</div>
+			<!-- the onfocus property hides the caret at  ':active' state-->
+			<input class="clear" type="text" name="del" value="del" onfocus="this.blur()">
+			<input class="clear" type="text" name="&percnt;" value="&percnt;" onfocus="this.blur()">
+			<input class="clear" type="text" name="&mnplus;" value="&mnplus;" onfocus="this.blur()">
+			<input class="clear" type="text" name="clear" value="clear" onfocus="this.blur()">
+			<div id="result">0</div>
 		</div>
 		
 		
@@ -29,27 +30,30 @@
 		<div class="keyboard">
 
 			<div class="keyboard_operator">
-
-				<div class="key_operator">&divide;</div>
-				<div class="key_operator">&times;</div>
-				<div class="key_operator">&minus;</div>
-				<div class="key_operator">&plus;</div>
+				
+				<!-- the onfocus property hides the caret at  ':active' state-->
+				<input class="key_operator" type="text" name="&divide;" value="&divide;" onfocus="this.blur()">
+				<input class="key_operator" type="text" name="&times;" value="&times;" onfocus="this.blur()">
+				<input class="key_operator" type="text" name="&minus;" value="&minus;" onfocus="this.blur()">
+				<input class="key_operator" type="text" name="&plus;" value="&plus;" onfocus="this.blur()">
 
 			</div>
 
 			<div class="keyboard_digit">
-				<div class="key_digit">7</div>
-				<div class="key_digit">8</div>
-				<div class="key_digit">9</div>
-				<div class="key_digit">4</div>
-				<div class="key_digit">5</div>
-				<div class="key_digit">6</div>
-				<div class="key_digit">1</div>
-				<div class="key_digit">2</div>
-				<div class="key_digit">3</div>
-				<div class="key_digit">0</div>
-				<div class="key_digit">.</div>
-				<div class="key_digit">&equals;</div>
+			
+				<!-- the onfocus property hides the caret at  ':active' state-->
+				<input class="key_digit" type="text" name="7" value="7" onfocus="this.blur()">
+				<input class="key_digit" type="text" name="8" value="8" onfocus="this.blur()">
+				<input class="key_digit" type="text" name="9" value="9" onfocus="this.blur()">
+				<input class="key_digit" type="text" name="4" value="4" onfocus="this.blur()">
+				<input class="key_digit" type="text" name="5" value="5" onfocus="this.blur()">
+				<input class="key_digit" type="text" name="6" value="6" onfocus="this.blur()">
+				<input class="key_digit" type="text" name="1" value="1" onfocus="this.blur()">
+				<input class="key_digit" type="text" name="2" value="2" onfocus="this.blur()">
+				<input class="key_digit" type="text" name="3" value="3" onfocus="this.blur()">
+				<input class="key_digit" type="text" name="0" value="0" onfocus="this.blur()">
+				<input class="key_digit" type="text" name="." value="." onfocus="this.blur()">
+				<input class="key_digit" type="submit" name="&equals;" value="&equals;" onfocus="this.blur()">
 			</div>
 
 
